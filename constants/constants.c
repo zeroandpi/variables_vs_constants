@@ -8,20 +8,19 @@
 int main(void) { 
 
 	/* At begin */
-	const int number = 5; // assign 5 to CONSTANT number	( 5 in the number's box )
-	const char character = 'a'; // assign a to CONSTANT character	( a in the character's box )
-	const float floatNumber = 3.14; // same above ( 3.14 in the floatNumber's box ) 
+	const int NUMBER = 5; // assign 5 to CONSTANT NUMBER	( 5 in the NUMBER's box )
+	const char CHARACTER = 'a'; // assign a to CONSTANT CHARACTER	( a in the CHARACTER's box )
+	const float FLOAT_NUMBER = 3.14; // same above ( 3.14 in the FLOAT_NUMBER's box ) 
 
 	printf("At begin\n");
-	printf("CONSTANT number holds value of %d\n", number);
-	printf("CONSTANT character holds char %c\n", character);
-	printf("CONSTANT floatNumber holds value of %f\n\n", floatNumber);
+	printf("CONSTANT NUMBER holds value of %d\n", NUMBER);
+	printf("CONSTANT CHARACTER holds char %c\n", CHARACTER);
+	printf("CONSTANT FLOAT_NUMBER holds value of %f\n\n", FLOAT_NUMBER);
 
 	/* WE CAN NOT CHANGE THE VALUE OF CONSTANT */
-	number = 7; 
-	character = 'z'; 
-	floatNumber = 3.14159; 
-	
+	NUMBER = 7; 
+	CHARACTER = 'z'; 
+	FLOAT_NUMBER = 3.14159; 
 	return 0; 
 }
 
